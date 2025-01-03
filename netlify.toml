@@ -1,1 +1,8 @@
+[build]
+  publish = "src"
+  # If you add a build process (e.g., npm run build), specify it here:
+  # command = "npm run build"
+
+[build.functions]
+  directory = "netlify/functions"
 
